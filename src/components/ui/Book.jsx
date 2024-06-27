@@ -1,18 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Book({book}) {
   return (
     <div className="book">
-      <a href="/">
+      <Link to="/">
         <figure className="book__img--wrapper">
           <img src={book.url} alt="" />
         </figure>
-      </a>
+      </Link>
       <div className="book__title">
-        <a href="/" classsName="book__title--link">
+        <Link to="/" classsName="book__title--link">
           {book.title}
-        </a>
+        </Link>
       </div>
       <div className="book__ratings">
         {
