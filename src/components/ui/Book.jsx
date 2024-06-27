@@ -5,13 +5,13 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 export default function Book({book}) {
   return (
     <div className="book">
-      <Link to="/">
+      <Link to="/books/1">
         <figure className="book__img--wrapper">
           <img src={book.url} alt="" />
         </figure>
       </Link>
       <div className="book__title">
-        <Link to="/" classsName="book__title--link">
+        <Link to="/books/1" classsName="book__title--link">
           {book.title}
         </Link>
       </div>
