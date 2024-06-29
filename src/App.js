@@ -7,7 +7,7 @@ import { books } from "./data";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
-import { counter } from "@fortawesome/fontawesome-svg-core";
+// import { counter } from "@fortawesome/fontawesome-svg-core";
 
 function App() {
   const [cart, setCart] = useState([]);
