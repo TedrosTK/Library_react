@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {} from "@fortawesome/free-brands-svg-icons";
+// import {} from "@fortawesome/free-brands-svg-icons";
 import {
   faBars,
   faTimes,
